@@ -48,7 +48,7 @@ namespace AspNet5Desafio.Services
             return resultJogo;
         }
 
-        public void AdicionarJogo(JogosModel jogo)
+        public bool AdicionarJogo(JogosModel jogo)
         {
             if (jogo == null)
             {
@@ -63,10 +63,11 @@ namespace AspNet5Desafio.Services
             {
                 throw new Exception(e.Message);
             }
-            
+
+            return true;
         }
 
-        public void AtualizarJogo(JogosModel jogo)
+        public bool AtualizarJogo(JogosModel jogo)
         {
             try
             {
@@ -76,9 +77,11 @@ namespace AspNet5Desafio.Services
             {
                 throw new Exception(e.Message);
             }
+
+            return true;
         }
 
-        public void DeletarJogo(JogosModel jogo)
+        public bool DeletarJogo(JogosModel jogo)
         {
             try
             {
@@ -88,6 +91,8 @@ namespace AspNet5Desafio.Services
             {
                 throw new Exception(e.Message);
             }
+
+            return true;
         }
 
     }

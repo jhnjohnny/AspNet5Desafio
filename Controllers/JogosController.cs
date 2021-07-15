@@ -32,23 +32,23 @@ namespace AspNet5Desafio.Controllers
 
         [HttpPost]
         [Route("AdicionarJogo")]
-        public void AdicionarJogo(JogosModel jogo)
+        public bool AdicionarJogo(JogosModel jogo)
         {
-            _jogosService.AdicionarJogo(jogo);
+            return _jogosService.AdicionarJogo(jogo);
         }
 
         [HttpPatch]
         [Route("AtualizarJogo")]
-        public void AtualizarJogo(JogosModel jogo)
+        public bool AtualizarJogo(JogosModel jogo)
         {
-            _jogosService.AtualizarJogo(jogo);
+            return _jogosService.AtualizarJogo(jogo);
         }
 
         [HttpDelete]
         [Route("DeletarJogo")]
-        public void DeletarJogo(JogosModel jogo)
+        public bool DeletarJogo(JogosModel jogo)
         {
-            _jogosService.DeletarJogo(jogo);
+            return _jogosService.DeletarJogo(jogo);
         }
 
 

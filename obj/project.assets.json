@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\AspNet5Desafio.csproj",
+      "projectUniqueName": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\AspNet5Desafio\\AspNet5Desafio.csproj",
       "projectName": "AspNet5Desafio",
-      "projectPath": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\AspNet5Desafio.csproj",
+      "projectPath": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\AspNet5Desafio\\AspNet5Desafio.csproj",
       "packagesPath": "C:\\Users\\jhnjo\\.nuget\\packages\\",
-      "outputPath": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\obj\\",
+      "outputPath": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\AspNet5Desafio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

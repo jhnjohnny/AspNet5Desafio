@@ -7,8 +7,8 @@ namespace AspNet5Desafio.Services
     {
         List<JogosModel> ListarJogos();
         JogosModel BuscarJogo(JogosModel jogo);
-        void AdicionarJogo(JogosModel jogo);
-        void AtualizarJogo(JogosModel jogo);
-        void DeletarJogo(JogosModel jogo);
+        bool AdicionarJogo(JogosModel jogo);
+        bool AtualizarJogo(JogosModel jogo);
+        bool DeletarJogo(JogosModel jogo);
     }
 }

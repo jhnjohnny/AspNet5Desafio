@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i6PQEeuhGeiWbZ15HzYvRLevNUkuSJUxFlt+Uvx+eZ7I73T31ElGKh1DxC49JOXj3vcRd9XjlvMrwJb/rs6i3Q==",
+  "dgSpecHash": "jOTDewcZhnnvWHU8hO9P5uSNZX8fWbEwJH4z8kcrz40loa6140qbeq2rhKU6NSJaKWtpBu8S2plJvyDCEBdWWw==",
   "success": true,
-  "projectFilePath": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\AspNet5Desafio.csproj",
+  "projectFilePath": "D:\\JOHNNY\\Desenvolvimento\\SOURCEs\\AspNet5Desafio\\AspNet5Desafio\\AspNet5Desafio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jhnjo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jhnjo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
